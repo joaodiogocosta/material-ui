@@ -111,7 +111,7 @@ function ButtonBases(props) {
           <span
             className={classes.imageSrc}
             style={{
-              backgroundImage: `url(${image.url})`,
+              backgroundImage: `url('${image.url}')`,
             }}
           />
           <span className={classes.imageBackdrop} />
